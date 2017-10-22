@@ -45,5 +45,16 @@ footer {
   footer p {
     font-size: 12px; }
 
-.display h2 {
+.display h1 {
+  font-size: 24px;
   text-align: left; }
+
+.about img {
+  width: 100%; }
+
+.contact img {
+  max-height: 237px;
+  float: right; }
+
+.build img {
+  width: 231px; }

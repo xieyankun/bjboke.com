@@ -1,0 +1,24 @@
+.list-wrap{
+    text-align: center;
+
+    .item{
+        position: relative;
+        width: 100%;
+        margin-bottom: 12px;
+
+        img{
+            width: 100%;
+        }
+        p{
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 48px;
+            line-height: 48px;
+            background-color: rgba(0,0,0,0.6);
+            bottom: -10px;
+            color: #fff;
+            font-size: 18px;
+        }
+    }
+}

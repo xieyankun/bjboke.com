@@ -14,6 +14,9 @@ h1 {
 h2 {
   font-size: 20px; }
 
+h3 {
+  font-size: 16px; }
+
 .list-wrap {
   text-align: center; }
   .list-wrap .item {
@@ -27,11 +30,12 @@ h2 {
       position: absolute;
       left: 0;
       width: 100%;
-      height: 48px;
-      line-height: 48px;
+      height: 36px;
+      line-height: 36px;
       bottom: -10px;
       color: #fff;
-      font-size: 18px; }
+      font-size: 14px;
+      background-color: rgba(0, 0, 0, 0.6); }
     .list-wrap .item .info {
       position: absolute;
       left: 0;
@@ -64,6 +68,11 @@ h2 {
   .list-wrap .three p {
     background-color: rgba(0, 0, 0, 0.6); }
 
+.border {
+  border-bottom: 2px solid #999;
+  width: 300px;
+  padding: 12px 0; }
+
 footer {
   text-align: center;
   background-color: #32383a;
@@ -77,11 +86,27 @@ footer {
     font-size: 12px; }
 
 .display h1 {
-  font-size: 24px;
+  font-size: 18px;
   text-align: left; }
 
-.about img {
+.about .intrl {
+  margin: 8px 0; }
+
+.about .col-xs-12, .about .col-md-8 {
+  padding: 0; }
+
+.about .col-md-4 img {
   width: 100%; }
+
+.book {
+  text-align: center;
+  background-color: #32383a;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  color: #FFF; }
+  .book img {
+    width: 280px;
+    margin-bottom: 4px; }
 
 .contact header {
   width: 100%; }
@@ -91,5 +116,5 @@ footer {
   float: right; }
 
 .build .introl img {
-  max-height: 231px;
-  float: right; }
+  width: 280px;
+  max-height: 231px; }

@@ -8,8 +8,26 @@
     .img-wrap{
 
     }
-
+    .intrl{
+        margin: 8px 0;
+    }
+    .col-xs-12, .col-md-8{
+        padding: 0;
+    }
+    .col-md-4{
+        img{
+            width: 100%;
+        }
+    }
+}
+.book{
+    text-align: center;
+    background-color: #32383a;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    color: #FFF;
     img{
-        width: 100%;
+        width: 280px;
+        margin-bottom: 4px;
     }
 }

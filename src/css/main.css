@@ -21,17 +21,48 @@ h2 {
     width: 100%;
     margin-bottom: 12px; }
     .list-wrap .item img {
-      width: 100%; }
+      width: 100%;
+      height: 200px; }
     .list-wrap .item p {
       position: absolute;
       left: 0;
       width: 100%;
       height: 48px;
       line-height: 48px;
-      background-color: rgba(0, 0, 0, 0.6);
       bottom: -10px;
       color: #fff;
       font-size: 18px; }
+    .list-wrap .item .info {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: #fff; }
+      .list-wrap .item .info h1 {
+        font-size: 18px;
+        margin: 8px 0; }
+      .list-wrap .item .info h3 {
+        font-size: 14px;
+        margin-top: 0; }
+  .list-wrap .two img {
+    width: 100%;
+    height: 240px; }
+  .list-wrap .two p {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 240px;
+    background-color: transparent;
+    color: transparent; }
+  .list-wrap .two p:hover {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 24px; }
+  .list-wrap .three p {
+    background-color: rgba(0, 0, 0, 0.6); }
 
 footer {
   text-align: center;
@@ -52,9 +83,13 @@ footer {
 .about img {
   width: 100%; }
 
-.contact img {
+.contact header {
+  width: 100%; }
+
+.contact .row img {
   max-height: 237px;
   float: right; }
 
-.build img {
-  width: 231px; }
+.build .introl img {
+  max-height: 231px;
+  float: right; }

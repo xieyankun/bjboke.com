@@ -8,6 +8,7 @@
 
         img{
             width: 100%;
+            height: 200px;
         }
         p{
             position: absolute;
@@ -15,10 +16,52 @@
             width: 100%;
             height: 48px;
             line-height: 48px;
-            background-color: rgba(0,0,0,0.6);
             bottom: -10px;
             color: #fff;
             font-size: 18px;
+        }
+        .info{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgba(0,0,0,0.6);
+            color: #fff;
+
+            h1{
+                font-size: 18px;
+                margin: 8px 0;
+            }
+            h3{
+                font-size: 14px;
+                margin-top: 0;
+            }
+        }
+    }
+    .two{
+        img{
+            width: 100%;
+            height: 240px;
+        }
+        p{
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            line-height: 240px;
+            background-color: transparent;
+            color: transparent;
+        }
+        p:hover{
+            display: block;
+            background-color: rgba(0,0,0,0.6);
+            color: #fff;
+            font-size: 24px;
+        }
+    }
+    .three{
+        p{
+            background-color: rgba(0,0,0,0.6);
         }
     }
 }

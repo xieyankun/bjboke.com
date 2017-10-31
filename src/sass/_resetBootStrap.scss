@@ -11,10 +11,32 @@
 .navbar {
     margin-bottom: 0px;
 }
+.navbar-nav {
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+}
+.navbar-default h1{
+    padding: 0 12px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #30bbe0;
+}
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #ffffff;
+    background-color: #30bbe0;
+}
 
 .col-xs-12, .col-md-4{
 }
 
+h1,h2,h3{
+    font-family: "microsoft yahei", "Times New Roman", "宋体",Times, serif;
+}
 h1{
     font-size: 27px;
 }
@@ -25,6 +47,14 @@ h3{
     font-size: 16px;
 }
 
+.navbar-default .navbar-brand{
+    font-size: 34px;
+    font-weight: 900;
+}
+.nav>li>a {
+    padding: 15px 36px;
+    font-size: 18px;
+}
 
 
 
